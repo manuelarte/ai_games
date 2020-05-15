@@ -1,0 +1,8 @@
+---
+applications:
+- name: aigames_client
+  random-route: true
+  path: ./dist
+  force_https: true
+  buildpacks:
+    - staticfile_buildpack
