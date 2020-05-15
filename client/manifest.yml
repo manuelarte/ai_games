@@ -1,6 +1,7 @@
 ---
 applications:
 - name: aigames_client
+  memory: 64M
   random-route: true
   path: ./dist
   force_https: true
